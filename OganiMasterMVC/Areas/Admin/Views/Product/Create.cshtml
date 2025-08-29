@@ -1,0 +1,53 @@
+﻿@model ProductViewModel
+<div class="content-wrapper">
+    ----------------------
+
+    <div class="row">
+        <div class="col-md-6 grid-margin stretch-card">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">Add Product</h4>
+                    <form method="post" class="forms-sample">
+                        <div class="form-group">
+                            <label>Product Name</label>
+                            <input asp-for="@Model." class="form-control" placeholder="product name">
+                            <span asp-validation-for="Name"></span>
+                            <br>
+                            <input asp-for="ImageUrl" class="form-control" placeholder="Image product">
+                            <label>Price</label>
+                            <input asp-for="Price" class="form-control" placeholder="price">
+                            <span asp-validation-for="Price"></span>
+                            <label>Description</label>
+                            <input asp-for="Description" class="form-control" placeholder="Description">
+                            <span asp-validation-for="Description"></span>
+                            <label asp-for="SelectedCategoryId">Category</label>
+                            <select asp-for="SelectedCategoryId" class="form-control" asp-items="@(new SelectList(Model.Categories, "Id", "Name"))">
+                                <option disabled selected>-- Kateqoriya seçin --</option>
+                            </select>
+                            <span asp-validation-for="SelectedCategoryId" class="text-danger"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                        <a asp-controller="Product" asp-action="Index" class="btn btn-light">Cancel</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+  public string? Name { get; set; }
+        public string? ImageUrl { get; set; }
+        public decimal Price { get; set; }
+        public string? Description { get; set; }
+        public decimal? DiscountPercent { get; set; }
+
+        public List<ProductImage>
+    ? ProductImages { get; set; }
+    public List<ProductTag>
+        ? ProductTags { get; set; }
+        public List<FeaturedProduct>
+            ? FeaturedProducts { get; set; }
+
+            public int? CategoryId { get; set; }
+            public Category? Category { get; set; }
