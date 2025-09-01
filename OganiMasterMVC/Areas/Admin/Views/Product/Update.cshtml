@@ -1,0 +1,43 @@
+﻿@model ProductViewModel
+<div class="row">
+    <div class="col-md-6 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Update Product</h4>
+                <form method="post" class="forms-sample">
+                    <div class="form-group">
+                        <label asp-for="Product.Name" class="form-label"></label>
+                        <input asp-for="Product.Name" class="form-control" style="border:1px solid #ccc;" placeholder="product name">
+                        <span asp-validation-for="Product.Name"></span>
+                        <br>
+                        <label asp-for="Product.ImageUrl" class="form-label" style="border:1px solid #ccc;"></label>
+                        <input asp-for="Product.ImageUrl" type="file" class="form-control" accept="image/*" />
+                        <span asp-validation-for="Product.ImageUrl"></span>
+
+                        <br>
+                        <label asp-for="Product.Price" class="form-label"></label>
+                        <input asp-for="Product.Price" class="form-control" style="border:1px solid #ccc;" placeholder="Price">
+                        <span asp-validation-for="Product.Price"></span>
+                        <br>
+                        <label asp-for="Product.Description" class="form-label"></label>
+                        <input asp-for="Product.Description" class="form-control" style="border:1px solid #ccc;" placeholder="Description">
+                        <span asp-validation-for="Product.Description"></span>
+                        <br>
+                        <label asp-for="Product.DiscountPercent" class="form-label"></label>
+                        <input asp-for="Product.DiscountPercent" class="form-control" style="border:1px solid #ccc;" placeholder="DiscountPercent">
+                        <span asp-validation-for="Product.DiscountPercent"></span>
+                        <br>
+                        <label> Categoriya</label>
+                        <select asp-for="Product.CategoryId" asp-items="Model.ListCategory" class="form-control" style="border:1px solid #ccc;">
+                            <option value="">-- Kateqoriya seçin --</option>
+                        </select>
+                        <span asp-validation-for="Product.CategoryId"></span>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Submit</button>
+                    <a asp-controller="product" asp-action="Index" class="btn btn-light">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

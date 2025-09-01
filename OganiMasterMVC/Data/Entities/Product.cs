@@ -1,9 +1,13 @@
-﻿namespace OganiMasterMVC.Data.Entities
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace OganiMasterMVC.Data.Entities
 {
     public class Product : Base
     {
         public string? Name { get; set; }
         public string? ImageUrl { get; set; }
+        [NotMapped]
+        public IFormFile? ImageFile { get; set; }
         public decimal Price { get; set; }
         public string? Description { get; set; }
         public decimal? DiscountPercent { get; set; }

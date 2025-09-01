@@ -8,10 +8,11 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
     public class CategoryController : AdminController
     {
         private readonly AppDbContext _context;
-
-        public CategoryController(AppDbContext context)
+        private readonly IWebHostEnvironment _env;
+        public CategoryController(AppDbContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _env = env;
         }
 
         public IActionResult Index()
@@ -24,7 +25,7 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Create(Category category)
+        public async Task< IActionResult> Create(Category category)
         {
             if (!ModelState.IsValid)
             {
@@ -35,6 +36,19 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
             {
                 ModelState.AddModelError("Name", "Bu Category bazada movcuddur.");
                 return View(category);
+            }
+            if (category.Name is not null && category.ImageFile?.Length > 0)
+            {
+                var uploadsRoot = Path.Combine(_env.WebRootPath, "img", "product");
+                Directory.CreateDirectory(uploadsRoot);
+
+                var fileName = $"{Guid.NewGuid()}{Path.GetExtension(category.ImageFile.FileName)}";
+                var filePath = Path.Combine(uploadsRoot, fileName);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                    await category.ImageFile.CopyToAsync(stream);
+
+                category.Url = $"/img/product/{fileName}";
             }
 
             _context.Categories.Add(category);
