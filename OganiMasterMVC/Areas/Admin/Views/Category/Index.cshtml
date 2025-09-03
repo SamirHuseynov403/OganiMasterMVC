@@ -24,11 +24,14 @@
                             </tr>
                         </thead>
                         <tbody>
+                            @{
+                                int count = 1;
+                            }
                             @foreach (var item in Model)
                             {
                                 <tr>
                                     <td class="text-center align-middle" style="border:1px solid #ccc;">
-                                        @item.Id
+                                        @count
                                     </td>
                                     <td class="text-center align-middle" style="border:1px solid #ccc;">
                                         @item.Name
@@ -37,7 +40,7 @@
                                         @item.Url
                                     </td>
                                     <td style="border:1px solid #ccc;">
-                                        <a class="btn btn-primary" asp-controller="Category" asp-action="Details" asp-route-id="@item.Id">Details</a>
+                                        
                                         <a class="btn btn-warning" asp-controller="Category" asp-action="Update" asp-route-id="@item.Id">Update</a>
 
                                         <form asp-controller="Category" asp-action="Delete" asp-route-id="@item.Id" method="post" style="display:inline">
@@ -47,6 +50,7 @@
                                     </td>
 
                                 </tr>
+                                count++;
                             }
 
                         </tbody>

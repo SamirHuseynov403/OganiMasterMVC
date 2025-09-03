@@ -1,37 +1,39 @@
-﻿@model ProductViewModel
+﻿@model UpdateProductViewModel
 <div class="row">
     <div class="col-md-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title">Update Product</h4>
-                <form method="post" class="forms-sample">
+                <form method="post" enctype="multipart/form-data" class="forms-sample">
                     <div class="form-group">
-                        <label asp-for="Product.Name" class="form-label"></label>
-                        <input asp-for="Product.Name" class="form-control" style="border:1px solid #ccc;" placeholder="product name">
-                        <span asp-validation-for="Product.Name"></span>
+                        <label asp-for="Name" class="form-label"></label>
+                        <input asp-for="Name" class="form-control" style="border:1px solid #ccc;" placeholder="product name">
+                        <span asp-validation-for="Name"></span>
                         <br>
-                        <label asp-for="Product.ImageUrl" class="form-label" style="border:1px solid #ccc;"></label>
-                        <input asp-for="Product.ImageUrl" type="file" class="form-control" accept="image/*" />
-                        <span asp-validation-for="Product.ImageUrl"></span>
+                        <img src="~/Admin/images/product/@Model.CoverImageUrl" style="width:80px;height:80px;object-fit:cover;border-radius:6px;"
+                             loading="lazy" asp-append-version="true" />
+                        <label> Cover Image"</label>
+                        <input asp-for="ImageFile" type="file" class="form-control" accept="image/*" />
+                        <span asp-validation-for="ImageFile"></span>
 
                         <br>
-                        <label asp-for="Product.Price" class="form-label"></label>
-                        <input asp-for="Product.Price" class="form-control" style="border:1px solid #ccc;" placeholder="Price">
-                        <span asp-validation-for="Product.Price"></span>
+                        <label asp-for="Price" class="form-label"></label>
+                        <input asp-for="Price" class="form-control" style="border:1px solid #ccc;" placeholder="Price">
+                        <span asp-validation-for="Price"></span>
                         <br>
-                        <label asp-for="Product.Description" class="form-label"></label>
-                        <input asp-for="Product.Description" class="form-control" style="border:1px solid #ccc;" placeholder="Description">
-                        <span asp-validation-for="Product.Description"></span>
+                        <label asp-for="Description" class="form-label"></label>
+                        <input asp-for="Description" class="form-control" style="border:1px solid #ccc;" placeholder="Description">
+                        <span asp-validation-for="Description"></span>
                         <br>
-                        <label asp-for="Product.DiscountPercent" class="form-label"></label>
-                        <input asp-for="Product.DiscountPercent" class="form-control" style="border:1px solid #ccc;" placeholder="DiscountPercent">
-                        <span asp-validation-for="Product.DiscountPercent"></span>
+                        <label asp-for="DiscountPercent" class="form-label"></label>
+                        <input asp-for="DiscountPercent" class="form-control" style="border:1px solid #ccc;" placeholder="DiscountPercent">
+                        <span asp-validation-for="DiscountPercent"></span>
                         <br>
                         <label> Categoriya</label>
-                        <select asp-for="Product.CategoryId" asp-items="Model.ListCategory" class="form-control" style="border:1px solid #ccc;">
+                        <select asp-for="CategoryId" asp-items="Model.ListCategory" class="form-control" style="border:1px solid #ccc;">
                             <option value="">-- Kateqoriya seçin --</option>
                         </select>
-                        <span asp-validation-for="Product.CategoryId"></span>
+                        <span asp-validation-for="CategoryId"></span>
 
                     </div>
                     <button type="submit" class="btn btn-primary mr-2">Submit</button>

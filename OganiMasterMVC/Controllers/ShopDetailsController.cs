@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
 using OganiMasterMVC.Data.DataContext;
 using OganiMasterMVC.Models.Basket;
@@ -22,20 +23,21 @@ namespace OganiMasterMVC.Controllers
         }
         public IActionResult Details(int id)
         {
-            var listDetailsProduct = _context.Products.FirstOrDefault(x => x.Id == id);
+            var listProduct = _context.Products
+                .Include(pi => pi.ProductImages).FirstOrDefault(o => o.Id == id);
             var listDetailsProductImages = _context.ProductImages.Where(x => x.ProductId == id).ToList();
 
-            if (listDetailsProduct == null) return NotFound();
+            if (listProduct == null) return NotFound();
 
             var list = new ShopDetailsViewModel
             {
-                Product = listDetailsProduct,
+                Product = listProduct,
                 ProductImages = listDetailsProductImages
             };
 
             return View("Index", list);
         }
-        public IActionResult AddToBasket(int id)
+        public IActionResult AddToBasket(int id, int count = 1)
         {
             var product = _context.Products.Find(id);
             if (product == null) return NotFound();

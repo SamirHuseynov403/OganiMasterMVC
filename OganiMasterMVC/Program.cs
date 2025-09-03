@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using OganiMasterMVC.Areas.Admin.Data;
 using OganiMasterMVC.Data.DataContext;
 namespace OganiMasterMVC
 {
@@ -26,6 +27,7 @@ namespace OganiMasterMVC
             }).AddEntityFrameworkStores<AppDbContext>().AddDefaultTokenProviders();
 
             builder.Services.AddScoped<DataInit>();
+            PathConstants.ProductImagePath = Path.Combine(builder.Environment.WebRootPath, "Admin", "images", "product");
             var app = builder.Build();
             using (var scope = app.Services.CreateScope())
             {

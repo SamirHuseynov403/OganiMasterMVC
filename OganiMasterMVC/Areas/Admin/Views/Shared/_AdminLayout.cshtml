@@ -12,6 +12,9 @@
     <!-- endinject -->
     <!-- plugin css for this page -->
     <link rel="stylesheet" href="~/Admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <!-- jQuery lazım deyil Bootstrap 5+ üçün -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <link rel="stylesheet" href="~/Admin/css/style.css">
@@ -205,11 +208,10 @@
             </nav>
             <!-- partial -->
             <div class="main-panel">
-        @RenderBody()
+                @RenderBody()
                 <!-- content-wrapper ends -->
                 <!-- partial:partials/_footer.html -->
                 <footer class="footer">
-                   
                 </footer>
                 <!-- partial -->
             </div>
@@ -220,7 +222,6 @@
     <!-- container-scroller -->
     <!-- plugins:js -->
     <!-- jQuery (CDN və ya local əlavə oluna bilər) -->
-
     <!-- Pluginlər: Bootstrap və əsas vendorlar -->
     <script src="@Url.Content("~/Admin/vendors/base/vendor.bundle.base.js")"></script>
 

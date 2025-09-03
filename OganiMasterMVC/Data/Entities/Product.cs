@@ -13,7 +13,7 @@ namespace OganiMasterMVC.Data.Entities
         public decimal? DiscountPercent { get; set; }
 
         public List<ProductImage>? ProductImages { get; set; }
-        public List<ProductTag>? ProductTags { get; set; }
+        public List<ProductTag> ProductTags { get; set; }= new List<ProductTag>();
         public List<FeaturedProduct>? FeaturedProducts { get; set; }
 
         public int? CategoryId { get; set; }

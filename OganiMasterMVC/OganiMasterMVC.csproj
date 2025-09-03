@@ -18,10 +18,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Admin\Data\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Include="wwwroot\Admin\.DS_Store" />
     <None Include="wwwroot\Admin\documentation\.DS_Store" />
     <None Include="wwwroot\Admin\fonts\.DS_Store" />
@@ -41,6 +37,10 @@
     <None Include="wwwroot\Admin\scss\components\.DS_Store" />
     <None Include="wwwroot\Admin\scss\mixins\.DS_Store" />
     <None Include="wwwroot\Admin\vendors\.DS_Store" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\Admin\images\product\" />
   </ItemGroup>
 
 </Project>

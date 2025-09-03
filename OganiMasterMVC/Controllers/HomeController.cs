@@ -25,6 +25,7 @@ namespace OganiMasterMVC.Controllers
         {
             var listProduct = _context.Products.ToList();
             var listProductFeatured = _context.FeaturedProducts
+                .Include(p=>p.Product)
                 .ToList();
             var listChunk = listProduct
                 .Take(listProduct.Count).ToList();

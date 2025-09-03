@@ -92,8 +92,8 @@
             {
                 <div class="col-lg-3 col-md-4 col-sm-6 mix @item.Product!.Category!.Name @item.Product.Category.Name">
                     <div class="featured__item">
-                        <a asp-controller="ShopDetails" asp-action="Details" asp-route-id="@item.Id">
-                            <div class="featured__item__pic set-bg" data-setbg="img/featured/feature-1.jpg">
+                        <a asp-controller="ShopDetails" asp-action="Details" asp-route-id="@item.ProductId">
+                            <div class="featured__item__pic set-bg" data-setbg="img/featured/@item.Product.ImageUrl">
                             </div>
                         </a>
 
@@ -143,7 +143,7 @@
                                     <a asp-controller="ShopDetails" asp-action="Index" class="latest-product__item">
                                         <div class="latest-product__item__pic">
                                             
-                                            <img src="~/img/product/@item.ImageUrl" alt="@item.Name" />
+                                            <img src="~/Admin/images/product/@item.ImageUrl" alt="@item.Name" />
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@item.Name</h6>
@@ -167,7 +167,7 @@
                                 {
                                     <a asp-controller="ShopDetails" asp-action="Index" class="latest-product__item">
                                         <div class="latest-product__item__pic">
-                                            <img src="~/img/product/@item.ImageUrl" alt="@item.Name" />
+                                            <img src="~/Admin/images/product/@item.ImageUrl" alt="@item.Name" />
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@item.Name</h6>
@@ -191,7 +191,7 @@
                                 {
                                     <a asp-controller="ShopDetails" asp-action="Index" class="latest-product__item">
                                         <div class="latest-product__item__pic">
-                                            <img src="~/img/product/@item.ImageUrl" alt="@item.Name" />
+                                            <img src="~/Admin/images/product/@item.ImageUrl" alt="@item.Name" />
                                         </div>
                                         <div class="latest-product__item__text">
                                             <h6>@item.Name</h6>

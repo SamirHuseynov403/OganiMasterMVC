@@ -1,4 +1,6 @@
 ﻿@model ProductViewModel
+
+
 <div class="content-wrapper">
     ----------------------
 
@@ -7,28 +9,32 @@
             <div class="card">
                 <div class="card-body" style="border:1px solid #ccc;">
                     <h4 class="card-title">Add Product</h4>
-                    <form method="post" class="forms-sample">
+                    <form method="post" class="forms-sample" enctype="multipart/form-data">
                         <div class="form-group">
-
-                            <input asp-for="Product.Name" class="form-control" style="border:1px solid #ccc;" placeholder="product name">
-                            <span asp-validation-for="Product.Name"></span>
+                            <label>Name</label>
+                            <input asp-for="Name" class="form-control" style="border:1px solid #ccc;" placeholder="product name">
+                            <span asp-validation-for="Name"></span>
                             <br>
-                            <input asp-for="Product.ImageUrl" type="file" class="form-control" accept="image/*" />
-                            <span asp-validation-for="Product.ImageUrl"></span>
+                            <label>Image File</label>
+                            <input asp-for="ImageFile" type="file" class="form-control" />
+                            <span asp-validation-for="ImageFile"></span>
                             <br>
-                            <input asp-for="Product.Price" class="form-control" style="border:1px solid #ccc;" placeholder="Price">
-                            <span asp-validation-for="Product.Price"></span>
+                            <label>Price</label>
+                            <input asp-for="Price" class="form-control" style="border:1px solid #ccc;" placeholder="Price">
+                            <span asp-validation-for="Price"></span>
                             <br>
-                            <input asp-for="Product.Description" class="form-control" style="border:1px solid #ccc;" placeholder="Description">
-                            <span asp-validation-for="Product.Description"></span>
+                            <input asp-for="Description" class="form-control" style="border:1px solid #ccc;" placeholder="Description">
+                            <span asp-validation-for="Description"></span>
                             <br>
-                            <input asp-for="Product.DiscountPercent" class="form-control" style="border:1px solid #ccc;" placeholder="DiscountPercent">
-                            <span asp-validation-for="Product.DiscountPercent"></span>
+                            <label>Discount Percent</label>
+                            <input asp-for="DiscountPercent" class="form-control" style="border:1px solid #ccc;" placeholder="DiscountPercent">
+                            <span asp-validation-for="DiscountPercent"></span>
                             <br>
-                            <select asp-for="Product.CategoryId" asp-items="Model.ListCategory" class="form-control" style="border:1px solid #ccc;">
+                            <label>Category</label>
+                            <select asp-for="CategoryId" asp-items="Model.ListCategory" class="form-control" style="border:1px solid #ccc;">
                                 <option value="">-- Kateqoriya seçin --</option>
                             </select>
-                            <span asp-validation-for="Product.CategoryId"></span>
+                            <span asp-validation-for="CategoryId"></span>
 
                         </div>
                         <button type="submit" class="btn btn-primary mr-2">Submit</button>
