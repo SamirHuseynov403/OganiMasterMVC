@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OganiMasterMVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a932322a29c0cd9aae912640abf7dbf4d359e708")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9ccc3cedb6a73104fd992b247c4af19386836cba")]
 [assembly: System.Reflection.AssemblyProductAttribute("OganiMasterMVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OganiMasterMVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

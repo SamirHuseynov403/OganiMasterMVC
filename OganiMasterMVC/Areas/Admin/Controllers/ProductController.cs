@@ -93,26 +93,6 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
 
-            //if (model.Product.ImageFile != null && model.Product.ImageFile.Length > 0)
-            //{
-            //    var uploadsRoot = Path.Combine(_env.WebRootPath, "img", "product");
-            //    Directory.CreateDirectory(uploadsRoot);
-
-            //    var fileName = $"{Guid.NewGuid()}{Path.GetExtension(model.Product.ImageFile.FileName)}";
-            //    var filePath = Path.Combine(uploadsRoot, fileName);
-
-            //    using (var stream = new FileStream(filePath, FileMode.Create))
-            //    {
-            //        await model.Product.ImageFile.CopyToAsync(stream);
-            //    }
-
-            //    model.Product.ImageUrl = $"/img/product/{fileName}";
-            //}
-
-            //_context.Products.Add(model.Product);
-            //await _context.SaveChangesAsync();
-
-            //return RedirectToAction(nameof(Index));
         }
 
         [HttpGet]
@@ -163,10 +143,9 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
                 return View(model);
             }
 
-            // Fayl gəlibsə — VALIDASİYA
             if (model.ImageFile is not null && model.ImageFile.Length > 0)
             {
-                if (!model.ImageFile.IsImage()) // şəkil DEYİLSƏ
+                if (!model.ImageFile.IsImage()) 
                 {
                     ModelState.AddModelError("ImageFile", "Yalnız şəkil faylı seçin.");
                     model.ListCategory = _context.Categories
@@ -175,7 +154,7 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
                     return View(model);
                 }
 
-                if (!model.ImageFile.IsAllowedSize(1)) // 1 MB-dan BÖYÜKDÜRSƏ
+                if (!model.ImageFile.IsAllowedSize(1)) 
                 {
                     ModelState.AddModelError("ImageFile", "Şəkilin ölçüsü maksimum 1 MB olmalıdır.");
                     model.ListCategory = _context.Categories
@@ -187,19 +166,16 @@ namespace OganiMasterMVC.Areas.Admin.Controllers
                 // Köhnə faylı sil
                 if (!string.IsNullOrWhiteSpace(product.ImageUrl))
                 {
-                    var oldNameOnly = Path.GetFileName(product.ImageUrl); // yalnız fayl adı
+                    var oldNameOnly = Path.GetFileName(product.ImageUrl); 
                     var oldPhysical = Path.Combine(PathConstants.ProductImagePath, oldNameOnly);
                     if (System.IO.File.Exists(oldPhysical))
                         System.IO.File.Delete(oldPhysical);
                 }
 
-                // Yenisini yaz
                 var uniqueName = await model.ImageFile.GenerateFile(PathConstants.ProductImagePath);
-                // DB üçün web yolunu saxla (relativ):
                 product.ImageUrl = uniqueName;
             }
 
-            // Qalan sahələr
             product.Name = model.Name!;
             product.Price = model.Price;
             product.Description = model.Description;

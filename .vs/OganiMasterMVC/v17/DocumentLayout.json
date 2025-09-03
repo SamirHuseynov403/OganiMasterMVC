@@ -3,6 +3,34 @@
   "WorkspaceRootPath": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\controllers\\shopdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\controllers\\shopdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -15,16 +43,8 @@
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\views\\product\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\controllers\\shopdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\controllers\\shopdetailscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\views\\shopdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\views\\shopdetails\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\views\\product\\update.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -39,16 +59,8 @@
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\data\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\data\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\wwwroot\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
@@ -65,10 +77,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\models\\producttagviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\models\\producttagviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|solutionrelative:oganimastermvc\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{25101D6F-F707-4DE4-917D-24586218DE8C}|OganiMasterMVC\\OganiMasterMVC.csproj|c:\\users\\mehemmed\\source\\repos\\oganimastermvc\\oganimastermvc\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -118,21 +126,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 28,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
-              "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
-              "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T17:34:53.277Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -147,33 +142,72 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:24:54.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T12:24:53.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-30T17:34:53.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Controllers\\HomeController.cs",
               "RelativeToolTip": "OganiMasterMVC\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACYAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T09:58:52.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ShopDetailsController.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Controllers\\ShopDetailsController.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Controllers\\ShopDetailsController.cs",
               "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Controllers\\ShopDetailsController.cs",
               "RelativeToolTip": "OganiMasterMVC\\Controllers\\ShopDetailsController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAxwBMAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwBMAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T08:55:04.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 10,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Views\\ShopDetails\\Index.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Views\\ShopDetails\\Index.cshtml",
@@ -181,12 +215,11 @@
               "RelativeToolTip": "OganiMasterMVC\\Views\\ShopDetails\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIBAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-03T08:39:02.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:39:02.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "style.css",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\wwwroot\\css\\style.css",
               "RelativeDocumentMoniker": "OganiMasterMVC\\wwwroot\\css\\style.css",
@@ -194,12 +227,11 @@
               "RelativeToolTip": "OganiMasterMVC\\wwwroot\\css\\style.css",
               "ViewState": "AgIAAE8NAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-03T08:20:05.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:20:05.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "elegant-icons.css",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\wwwroot\\css\\elegant-icons.css",
               "RelativeDocumentMoniker": "OganiMasterMVC\\wwwroot\\css\\elegant-icons.css",
@@ -207,12 +239,11 @@
               "RelativeToolTip": "OganiMasterMVC\\wwwroot\\css\\elegant-icons.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-03T08:20:02.532Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:20:02.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "bootstrap.min.css",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\wwwroot\\css\\bootstrap.min.css",
               "RelativeDocumentMoniker": "OganiMasterMVC\\wwwroot\\css\\bootstrap.min.css",
@@ -220,12 +251,11 @@
               "RelativeToolTip": "OganiMasterMVC\\wwwroot\\css\\bootstrap.min.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-09-03T08:20:00.548Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-03T08:20:00.548Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ProductTagViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\ProductTagViewModel.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Models\\ProductTagViewModel.cs",
@@ -237,7 +267,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "Tag.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Data\\Entities\\Tag.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Data\\Entities\\Tag.cs",
@@ -249,7 +279,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "ProductTag.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Data\\Entities\\ProductTag.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Data\\Entities\\ProductTag.cs",
@@ -261,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "UpdateProductViewModel.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Models\\UpdateProductViewModel.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Models\\UpdateProductViewModel.cs",
@@ -273,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Program.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Program.cs",
@@ -285,7 +315,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "PathConstants.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Data\\PathConstants.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Data\\PathConstants.cs",
@@ -297,7 +327,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "FileExtensions.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Data\\FileExtensions.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Data\\FileExtensions.cs",
@@ -309,7 +339,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\appsettings.json",
               "RelativeDocumentMoniker": "OganiMasterMVC\\appsettings.json",
@@ -321,7 +351,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 8,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Views\\Home\\Index.cshtml",
@@ -329,12 +359,11 @@
               "RelativeToolTip": "OganiMasterMVC\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAFIAAAAAAAAAAAAmwMgAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T19:30:27.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T19:30:27.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Data\\Entities\\Product.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Data\\Entities\\Product.cs",
@@ -342,12 +371,11 @@
               "RelativeToolTip": "OganiMasterMVC\\Data\\Entities\\Product.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T16:48:35.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T16:48:35.174Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Update.cshtml",
@@ -355,12 +383,11 @@
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Update.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T18:27:33.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T18:27:33.276Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Update.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Update.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Update.cshtml",
@@ -372,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Data\\Entities\\Category.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Data\\Entities\\Category.cs",
@@ -384,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -392,37 +419,37 @@
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T17:00:14.934Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T17:00:14.934Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 2,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAmwDgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAcwDgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-30T16:54:42.587Z"
+              "WhenOpened": "2025-08-30T16:54:42.587Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAsBAAAAAAAAAAAkwCkBAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAPwAAAAAAAAAAAAkwAkBAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-30T16:36:52.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 12,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
@@ -430,12 +457,11 @@
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Create.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T16:33:22.741Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T16:33:22.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 9,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Index.cshtml",
@@ -443,25 +469,24 @@
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Views\\Product\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-30T16:32:47.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-30T16:32:47.658Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 7,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ToolTip": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "OganiMasterMVC\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAMEAAAAAAAAAAAAUwM0AAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAUwM0AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-08-30T16:31:09.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\mehemmed\\source\\repos\\OganiMasterMVC\\OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "OganiMasterMVC\\Areas\\Admin\\Views\\Category\\Index.cshtml",

@@ -19,8 +19,8 @@ namespace OganiMasterMVC.Areas.Admin.Models
         public List<SelectListItem> ListCategory { get; set; } = new List<SelectListItem>();
         public List<Tag> Tags { get; set; } = new List<Tag>();
 
-        public int ProductId { get; set; }          // <input hidden>
-        public List<int> TagIds { get; set; } = new(); // <checkbox>
-        public string? NewTagName { get; set; }     // <input>
+        public int ProductId { get; set; }          
+        public List<int> TagIds { get; set; } = new(); 
+        public string? NewTagName { get; set; }     
     }
 }
